@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .bs-example1 {
+      margin: 0px;
+
+    }
+    .bg-dark1 {
+    background-color: white!important;
+}
+    .navbar-brand1 {
+      font-size: 20px;
+      font-family: sans-serif;
+
+    }
+    .bs-example {
+      margin: 0px;
+      
+    }
+    .bg-dark {
+    background-color: #146bef!important;
+    width:100%;
+      height: 100px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    
+
+}
+    .navbar-brand {
+      font-size: 20px;
+      font-family: sans-serif;
+
+    }
+   
+  </style>
+</head>
+
+<body>
+  <div class="brunda fixed top">
+  <div class="bs-example1">
+    <nav class="navbar navbar-expand-md bg-dark1 navbar-dark1 fixed-top">
+        <img src="{% static "images/emblem.png" %}" width="120" height="80" alt="emblem" />
+      
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="/" class="navbar-brand" style="color:rgb(46, 128, 243);">Vehicle Service Management</a>
+         
+
+        </div>
+
+        <div class="navbar-nav">
+          <img src="{% static "images/lotus.png" %}" width="120" height="80" alt="lotus" />
+        </div>
+
+
+
+
+      </div>
+    </nav>
+  </div><br><br>
+
+
+
+  <div class="bs-example">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="/" class="nav-item nav-link active">Home</a>
+
+          <a href="/customerclick" class="nav-item nav-link">Customer</a>
+          <a href="/mechanicsclick" class="nav-item nav-link">Mechanics</a>
+          <a href="/adminclick" class="nav-item nav-link">Admin</a>
+
+
+        </div>
+
+        <div class="navbar-nav">
+          <a href="/aboutus" class="nav-item nav-link">About Us</a>
+          <a href="contactus" class="nav-item nav-link">Contact Us</a>
+        </div>
+
+
+
+
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+</body>
+
+</html>
